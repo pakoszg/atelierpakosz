@@ -1,9 +1,8 @@
-import Home from './Home'
-import Contact from './Contact'
-import About from './About'
-import Workshops from './Workshops'
+import Home from './components/home/Home'
+import Contact from './components/contact/Contact'
+import About from './components/about/About'
+import Workshops from './components/workshops/Workshops'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import MobileMenu from './MobileMenu'
 
 function App() {
     return (
@@ -15,11 +14,11 @@ function App() {
                         <Route exact path="/Contact" component={Contact} />
                         <Route exact path="/Workshops" component={Workshops} />
                         <Route exact path="/About" component={About} />
-                        <Route
+                        {/* <Route
                             exact
                             path="/MobileMenu"
                             component={MobileMenu}
-                        />
+                        /> */}
                     </Switch>
                 </div>
             </div>
