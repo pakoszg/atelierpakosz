@@ -35,7 +35,7 @@ const Maps = (props) => {
         >
             <GoogleMapReact
                 bootstrapURLKeys={{
-                    key: 'AIzaSyCwppeiVtFjXT1nRPZjAyru3RlHTQfbv74',
+                    key: '************************',
                 }}
                 defaultCenter={center}
                 defaultZoom={zoom}
