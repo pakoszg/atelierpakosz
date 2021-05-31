@@ -1,0 +1,40 @@
+.workshops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workshops h1 {
+}
+
+.workshops button {
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+#giftCard {
+    flex-direction: row-reverse;
+}
+
+#giftCard > .imageText-text-wrapper {
+    margin-left: 0px;
+    margin-right: 5vw;
+}
+
+@media (max-width: 470px) {
+    .workshops > h1 {
+    }
+
+    .workshops button {
+        margin-bottom: 15%;
+    }
+
+    #giftCard {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1023px) {
+    .workshops > h1 {
+    }
+}

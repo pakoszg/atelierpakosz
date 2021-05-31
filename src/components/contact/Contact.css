@@ -1,0 +1,147 @@
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+}
+.contact-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-map-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+.contact-wrapper {
+    width: 90%;
+    /* padding: 2% 4%; */
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1200px;
+}
+
+.contact-info {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-info h2,
+.social-contacts {
+    padding-bottom: 40px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.contact-info p {
+    padding: 2px;
+    font-size: 0.9em;
+}
+
+.social-contacts {
+    padding-top: 30px;
+}
+
+.social-contacts a {
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 1.5em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    font-size: 0.9em;
+    width: 50%;
+}
+.form-group label {
+    padding-bottom: 10px;
+    width: 100%;
+    max-width: 700px;
+    font-size: 0.9em;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    max-width: 800px;
+}
+
+.form-group > button {
+    max-width: 100px;
+}
+.form-group > button:hover {
+    background-color: rgb(83, 81, 81);
+}
+
+.form-control {
+    background-color: rgb(251, 251, 251);
+    border: rgb(219, 219, 219) 1px solid;
+    border-radius: 2px;
+    outline-color: black;
+    outline-offset: 4px;
+}
+
+.form-data {
+    height: 40px;
+}
+
+.form-group {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (max-width: 1023px) {
+    #contactUs {
+    }
+
+    .contact-wrapper {
+        flex-direction: column;
+        max-width: 1600px;
+    }
+
+    #contact-form {
+        width: 100%;
+    }
+
+    .contact-map-wrapper {
+        margin: 20% 0;
+    }
+}
+/* 
+@media (max-width: 648px) {
+    .contact-wrapper {
+        flex-direction: column;
+        max-width: 1600px;
+    }
+
+    #contact-form {
+        width: 100%;
+    }
+
+    .contact-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-map-wrapper {
+        margin: 20% 0;
+    }
+} */
